@@ -177,22 +177,22 @@ function draw() {
     centerOurStuff();
 
   
-      // pupet lines
-  strokeWeight(5);
-  stroke('grey');
-  line(rightShoulderX, rightShoulderY, rightShoulderX, 0); // nose to left shoulder
-  line(leftShoulderX, leftShoulderY, leftShoulderX, 0); // nose to right shoulder
+  //     // pupet lines
+  // strokeWeight(5);
+  // stroke('grey');
+  // line(rightShoulderX, rightShoulderY, rightShoulderX, 0); // nose to left shoulder
+  // line(leftShoulderX, leftShoulderY, leftShoulderX, 0); // nose to right shoulder
   
-  line(rightElbowX, rightElbowY, rightElbowX, 0); // right shoulder to right elbow
-  line(leftElbowX, leftElbowY, leftElbowX, 0); // showlder to elbow
-  line(rightWristX, rightWristY, rightWristX, 0); // right wrist to right hand
-  line(leftWristX, leftWristY, leftWristX, 0); // left wrist to left hand
-  line(hipX, hipY, hipX, 0); // right shoulder to right hip
-  line(hipX2, hipY2, hipX2, 0); // left shoulder to left hip
-  line(kneeX, kneeY, kneeX, 0); // right hip to right knee
-  line(kneeX2, kneeY2, kneeX2, 0); // left hip to left knee
-  line(rightHandX, rightHandY, rightHandX, 0); // right knee to right ankle
-  line(leftHandX, leftHandY, leftHandX, 0); // left knee to left ankle
+  // line(rightElbowX, rightElbowY, rightElbowX, 0); // right shoulder to right elbow
+  // line(leftElbowX, leftElbowY, leftElbowX, 0); // showlder to elbow
+  // line(rightWristX, rightWristY, rightWristX, 0); // right wrist to right hand
+  // line(leftWristX, leftWristY, leftWristX, 0); // left wrist to left hand
+  // line(hipX, hipY, hipX, 0); // right shoulder to right hip
+  // line(hipX2, hipY2, hipX2, 0); // left shoulder to left hip
+  // line(kneeX, kneeY, kneeX, 0); // right hip to right knee
+  // line(kneeX2, kneeY2, kneeX2, 0); // left hip to left knee
+  // line(rightHandX, rightHandY, rightHandX, 0); // right knee to right ankle
+  // line(leftHandX, leftHandY, leftHandX, 0); // left knee to left ankle
 
     //skeleton
     stroke('white');
