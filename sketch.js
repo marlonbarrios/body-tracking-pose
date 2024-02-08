@@ -23,7 +23,7 @@ https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
 
 What we do in this example:
 - lerp the landmarks to make them smoother
-- baased on https://github.com/amcc/easydetect by Alistair McClymont
+- based on https://github.com/amcc/easydetect by Alistair McClymont
 
 */
 
@@ -177,14 +177,14 @@ function draw() {
     centerOurStuff();
 
   
-  //     // pupet lines
+  //     // puppet lines
   // strokeWeight(5);
   // stroke('grey');
   // line(rightShoulderX, rightShoulderY, rightShoulderX, 0); // nose to left shoulder
   // line(leftShoulderX, leftShoulderY, leftShoulderX, 0); // nose to right shoulder
   
   // line(rightElbowX, rightElbowY, rightElbowX, 0); // right shoulder to right elbow
-  // line(leftElbowX, leftElbowY, leftElbowX, 0); // showlder to elbow
+  // line(leftElbowX, leftElbowY, leftElbowX, 0); // shoulder to elbow
   // line(rightWristX, rightWristY, rightWristX, 0); // right wrist to right hand
   // line(leftWristX, leftWristY, leftWristX, 0); // left wrist to left hand
   // line(hipX, hipY, hipX, 0); // right shoulder to right hip
@@ -194,13 +194,13 @@ function draw() {
   // line(rightHandX, rightHandY, rightHandX, 0); // right knee to right ankle
   // line(leftHandX, leftHandY, leftHandX, 0); // left knee to left ankle
 
-    //skeleton
+    // skeleton
     stroke('white');
     strokeWeight(50);
     line(rightShoulderX, rightShoulderY, leftShoulderX, leftShoulderY); // nose to left shoulder
     line(rightShoulderX, rightShoulderY, rightElbowX, rightElbowY); // nose to right shoulder
     line(rightElbowX, rightElbowY, rightWristX, rightWristY); // right shoulder to right elbow  
-    line(leftShoulderX, leftShoulderY, leftElbowX, leftElbowY); // showlder to elbow
+    line(leftShoulderX, leftShoulderY, leftElbowX, leftElbowY); // shoulder to elbow
     line(leftElbowX, leftElbowY, leftWristX, leftWristY); // elbow to wrist
     line(rightWristX, rightWristY, rightHandX, rightHandY); // right wrist to right hand  
     line(leftWristX, leftWristY, leftHandX, leftHandY); // left wrist to left hand
@@ -333,5 +333,3 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   setCameraDimensions(capture);
 }
-
-
