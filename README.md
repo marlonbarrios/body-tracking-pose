@@ -16,6 +16,6 @@ Thanks to @nahuelgerth
 ## Dependencies
 
 - [p5.js](https://p5js.org/): A JavaScript library for creative coding.
-- [MediaPipe](https://mediapipe.dev/): An open-source framework for building multimodal (vision, audio, etc.) applied ML pipelines.
+- [MediaPipe](https://developers.google.com/mediapipe/solutions/vision/pose_landmarker#get_started): An open-source framework for building multimodal (vision, audio, etc.) applied ML pipelines.
 
 # [GO TO LIVE APP](https://marlonbarrios.github.io/body-tracking-pose/)
