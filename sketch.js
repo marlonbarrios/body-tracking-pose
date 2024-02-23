@@ -244,10 +244,10 @@ function draw() {
       // draw points
    
       strokeWeight(20);
-      stroke('red');
+      // stroke('red');
       
-      fill('white');
-      ellipse(noseX, noseY, ellipseSize + 100, ellipseSize + 150); // nose
+      // fill('white');
+      ellipse(noseX, noseY, ellipseSize + 200, ellipseSize + 200); // nose
   
     
       ellipse(leftShoulderX, leftShoulderY, ellipseSize, ellipseSize); // left shoulder
