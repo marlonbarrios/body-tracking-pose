@@ -1,4 +1,4 @@
-# Impossible Simplocity: MediaPipe Body Tracking Example
+# Impossible Simplicity: MediaPipe Body Tracking Example
 
 ![Screenshot 2024-02-08 at 3 51 22 PM](https://github.com/marlonbarrios/body-tracking-pose/assets/90220317/87038b54-6afb-4e66-8464-ea63faff86f7)
 
