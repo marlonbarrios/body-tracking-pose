@@ -247,7 +247,7 @@ function draw() {
       // stroke('red');
       
       // fill('white');
-      ellipse(noseX, noseY, ellipseSize + 200, ellipseSize + 200); // nose
+      ellipse(noseX, noseY, ellipseSize + 150, ellipseSize + 150); // nose
   
     
       ellipse(leftShoulderX, leftShoulderY, ellipseSize, ellipseSize); // left shoulder
