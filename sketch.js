@@ -196,7 +196,7 @@ function draw() {
 
     // skeleton
     stroke('white');
-    strokeWeight(50);
+    strokeWeight(20);
     line(rightShoulderX, rightShoulderY, leftShoulderX, leftShoulderY); // nose to left shoulder
     line(rightShoulderX, rightShoulderY, rightElbowX, rightElbowY); // nose to right shoulder
     line(rightElbowX, rightElbowY, rightWristX, rightWristY); // right shoulder to right elbow  
@@ -243,7 +243,7 @@ function draw() {
 
       // draw points
    
-      strokeWeight(20);
+      strokeWeight(40);
       // stroke('red');
       
       // fill('white');
