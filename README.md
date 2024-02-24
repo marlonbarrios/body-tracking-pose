@@ -18,6 +18,6 @@ Thanks to @nahuelgerth
 - [p5.js](https://p5js.org/): A JavaScript library for creative coding.
 - [MediaPipe](https://developers.google.com/mediapipe/solutions/vision/pose_landmarker#get_started): An open-source framework for building multimodal (vision, audio, etc.) applied ML pipelines.
 
-# [GO TO LIVE APP](https://marlonbarrios.github.io/body-tracking-pose/)
+# [GO TO LIVE APP](https://marlonbarrios.github.io/impossible-simplicity/)
 
   Created during a artistic reserach residency at [Lake Studios Berlin](https://lakestudiosberlin.com/) in February 2024
