@@ -43,12 +43,23 @@ let lerpLandmarks;
 let ellipseSize = 20; // size of the ellipses
 let letterSize = 20; // size of the letter
 
+// sound
+let soundFile;
+
+// let parentDiv;
+function preload() {
+  soundFile = loadSound('emergence2.mp3');
+}
+
 
 /* - - Setup - - */
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
   captureWebcam(); // launch webcam
+  // make the camera input clack and white
+
+  
 
   // styling
   noStroke();
@@ -71,7 +82,9 @@ function draw() {
   scale(-1, 1); // mirror webcam
   image(capture, -capture.scaledWidth, 0, capture.scaledWidth, capture.scaledHeight); // draw webcam
   scale(-1, 1); // unset mirror
+ 
   pop();
+  filter(GRAY);
 
 
   /* TRACKING */
@@ -273,8 +286,21 @@ function draw() {
 
     pop();
 
+    let d = dist(rightHandX, rightHandY, leftHandX, leftHandY);
+
+    if (d < 100) 
+      // make lines from hands the top border
+      stroke('red');
+      strokeWeight(5);
+      line(noseX, noseY* 0.40, width, 0); // right hand to top
+      line(noseX,noseY *0.40, 0, 0); // left hand to top
+  
+   
+  } else {  // if no hand tracking
+  noStroke();
   }
-}
+  }
+
 
 
 /* - - Helper functions - - */
@@ -308,6 +334,8 @@ function captureWebcam() {
 function setCameraDimensions(video) {
 
   const vidAspectRatio = video.width / video.height; // aspect ratio of the video
+
+
   const canvasAspectRatio = width / height; // aspect ratio of the canvas
 
   if (vidAspectRatio > canvasAspectRatio) {
@@ -333,3 +361,14 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   setCameraDimensions(capture);
 }
+
+function keyPressed() {
+  if (key === 'p') {
+      if (soundFile.isPlaying()) {
+          soundFile.stop();
+      } else {
+          soundFile.play();
+      }
+  }
+}
+
