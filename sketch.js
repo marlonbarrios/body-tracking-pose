@@ -286,19 +286,7 @@ function draw() {
 
     pop();
 
-    let d = dist(rightHandX, rightHandY, leftHandX, leftHandY);
-
-    if (d < 100) 
-      // make lines from hands the top border
-      stroke('red');
-      strokeWeight(5);
-      line(noseX, noseY* 0.40, width, 0); // right hand to top
-      line(noseX,noseY *0.40, 0, 0); // left hand to top
   
-   
-  } else {  // if no hand tracking
-  noStroke();
-  }
   }
 
 
